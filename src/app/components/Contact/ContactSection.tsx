@@ -44,7 +44,7 @@ export default function ContactSection() {
             className="flex w-full min-w-0 flex-col gap-1 border border-[#1e1e30] p-5 no-underline sm:w-auto sm:min-w-70 sm:px-8"
           >
             <span className="font-mono text-[10px] uppercase tracking-widest text-[#7fffb2]">{label}</span>
-            <span className="break-words text-[13px] text-[#6b6b80]">{value}</span>
+            <span className="wrap-break-word text-[13px] text-[#6b6b80]">{value}</span>
           </m.a>
         ))}
       </div>
